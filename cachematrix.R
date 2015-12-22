@@ -1,13 +1,10 @@
 ## makeCacheMatrix and cacheSolve are defined to create behavior of caching reverse matrix of a square matrix.
 ## The value of reverse matrix in only calculated first time and cached for further usage. 
 
-##makeCacheMatrix function will return a list of functions which is used to manipulate an encapsulated
-##state with <<- operator.
-
 
 
 ##makeCacheMatrix takes a square matrix, and returns a List of functions which are used to manipulate the encasulated state 
-##(matrix and its cached reverse matrix). 
+##(matrix and its cached reverse matrix) with <<- operator. 
 ##functions in the retuned list are:
 ##getMatrix  get the original matrix passed in as argument
 ##setMatrix  set the matrix and clear cached reverse matrix if any
